@@ -3,7 +3,10 @@ name = "px4-ecl"
 version = "0.1.0"
 authors = ["Michael Zimmermann <sigmaepsilon92@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "bindings for https://github.com/PX4/ecl"
+repository = "https://github.com/M1cha/rust-px4-ecl"
+license = "BSD-3-Clause"
 
 [dependencies]
+px4-ecl-sys = "0.1.0"
+nalgebra = "0.18"
